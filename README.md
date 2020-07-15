@@ -32,7 +32,23 @@ Coming soon...
 
 ## Usage
 
-Coming soon...
+You can start using this project by doing three steps after installing.
+
+- Step one: First of all you must import MimDB mudole in your project. For do this, write this line on top of your codes:
+
+  `from mim.main import Mim`
+
+- Step two: Ater you imported Mim, You must create an instance from `Mim` and connect to  your database with your user and password:
+
+  `m = Mim()`
+ 
+  `m.connect('username', 'password')`
+
+**Note**: When you instal mimdb-beta for first time, by defult your user and pass will set as `root`
+
+- Last step: We are done! Now you can do any work with your database by `Mim` instance after connecting.
+
+  `m.mset('example', 'hello, world!')`
 
 ## Community
 
